@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+#background-image {
+    background: url(img/intro-bg_1_.jpg);
+    height: 700px;
+    width: 100%;
+    color: #f8f8f8;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#content {
+    padding: 30px 20px;
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 650px;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+#banner_content p {
+    color: lightgrey;
+    font-size:12px
+}
+
+a.navbar-brand {
+    font-size: 1em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
+    color: #fff;
+    margin: 0;
+    font-weight: 70;
+    text-align: center;
+}
